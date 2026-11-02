@@ -82,4 +82,4 @@ Pada setiap tahapan di atas, *smart contract* secara otomatis memeriksa persyara
 Sistem ini secara signifikan meningkatkan keterlacakan catatan distribusi dan membuktikan efektivitas *smart contract* dalam menyelesaikan masalah fragmentasi data pada rantai pasok. Sebagai langkah selanjutnya, pengembangan dapat diperluas dengan mengintegrasikan verifikasi data fisik IoT/RFID, mekanisme pembayaran aset digital (Oracle/Stablecoin), serta tata kelola hukum operasional di dunia nyata.
 
 Video Perbaikan
-<video controls src="video_perbaikan.mp4" title="Title"></video>
+<video controls src="video.mp4" title="Title"></video>
