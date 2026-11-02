@@ -70,7 +70,7 @@ Validasi transaksi dilakukan secara ketat menggunakan fungsi `require` dan `reve
 ## 3. Flowchart Alur Transaksi
 
 Berikut adalah alur operasional utama dan urutan eksekusi transaksi pada sistem BMWSupplyChain:
-![alt text](flowchart.jpeg)
+![alt text](Flowchart.jpeg)
 Pada setiap tahapan di atas, *smart contract* secara otomatis memeriksa persyaratan transaksi dan kewenangan *wallet* pengirim (`msg.sender`). Jika persyaratan tidak terpenuhi, transaksi akan dibatalkan (*revert*) dan tidak ada perubahan *state* yang disimpan ke *blockchain*.
 
 ---
@@ -80,3 +80,6 @@ Pada setiap tahapan di atas, *smart contract* secara otomatis memeriksa persyara
 **BMWSupplyChain** merupakan prototipe *smart contract* yang efisien dan aman untuk mencatat serta melacak distribusi kendaraan BMW dari pabrik hingga pembeli akhir. Implementasi struktur data berbasis *enum*, *struct*, dan *mapping* yang dikombinasikan dengan fungsi validasi ketat serta *event logging* berhasil mewujudkan kontrol akses berbasis peran (RBAC) dan transparansi transaksi.
 
 Sistem ini secara signifikan meningkatkan keterlacakan catatan distribusi dan membuktikan efektivitas *smart contract* dalam menyelesaikan masalah fragmentasi data pada rantai pasok. Sebagai langkah selanjutnya, pengembangan dapat diperluas dengan mengintegrasikan verifikasi data fisik IoT/RFID, mekanisme pembayaran aset digital (Oracle/Stablecoin), serta tata kelola hukum operasional di dunia nyata.
+
+Video Perbaikan
+<video controls src="video perbaikan.mp4" title="Title"></video>
